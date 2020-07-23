@@ -1,0 +1,52 @@
+/* body {
+    background-color: rgb(68, 114, 160);
+} */
+
+.hero-image {
+    background-image: url("../pics/bg-POP-dark1.PNG"); /* The image used */
+    background-color: #525252;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+nav {
+    border-bottom: 2px;
+    border-bottom-color: darkgrey;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+}
+
+main {
+    color: rgb(255, 255, 255);
+    padding-bottom: 100px; /* used to ensure content appears from behind sticky-footer */
+}
+
+/* Used container small to acheive the desired responsiveness  */
+.container-sm {
+    padding-bottom: 10px;
+}
+
+div {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* CSS used to ensure the footer was acting appropriately across viewports and looked the same as the navbar */
+#sticky-footer {
+    position: fixed; /* Positoned relative to browser window*/
+    bottom: 0; /* Stuck the footer to the bottom of the viewport browser window */
+    width: 100%;
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-top-color: darkgrey;
+    border-top-style: solid;
+    margin-top: 25px;
+}
+
+small {
+    margin-right: 16px; /*Used to provide a gap between name and icon links in footer */
+}
