@@ -50,3 +50,7 @@ h2 {
 small {
     margin-right: 16px; /*Used to provide a gap between name and icon links in footer */
 }
+
+.btn {
+    margin: 5px;
+}
