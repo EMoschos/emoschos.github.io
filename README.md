@@ -1,40 +1,68 @@
-# hwk9-Updated-Bio
-Homework-9 Mobile Responsive Bio Updated
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-My BIO was based on a business idea that I had discussed with some friends so I thought I would keep that theme 
+## Available Scripts
 
-# Objectives
-Following the Homework readme directions I have updated the Bio Webpage to include project 1 and 3 other created apps.  There is a link to GitHub and LinkedIn at the bottom of the web page with both of these account being updated with info.
+In the project directory, you can run:
 
-# List of Working links
-All the links on each page.
+### `npm start`
 
-## Updated Bio
-https://github.com/EMoschos/Web-Dev-Bio
-https://emoschos.github.io/Web-Dev-Bio/
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Personal GitHub
-https://github.com/EMoschos
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## LinkedIn 
-https://www.linkedin.com/in/eleftherios-moschos-380409113/
+### `npm test`
 
-## HandleBurger-Express
-https://young-mountain-78701.herokuapp.com/
-https://github.com/EMoschos/burger-express
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Doggo App
-https://gussell87.github.io/Doggo/
-https://github.com/gussell87/doggo
+### `npm run build`
 
-## Weather App
-https://emoschos.github.io/hows-the-weather/
-https://github.com/EMoschos/hows-the-weather
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Planner App
-https://emoschos.github.io/plan-my-time-away/
-https://github.com/EMoschos/plan-my-time-away/
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Quiz App
-https://emoschos.github.io/Code-Quiz-Wizz/
-https://github.com/EMoschos/Code-Quiz-Wizz
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

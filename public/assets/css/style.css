@@ -3,7 +3,7 @@
 } */
 
 .hero-image {
-    background-image: url("../pics/bg-POP-dark1.PNG"); /* The image used */
+    background-image: url("../pics/POPvennSVG.svg"); /* The image used */
     background-color: #525252;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -27,7 +27,7 @@ main {
     padding-bottom: 10px;
 }
 
-div {
+.marginTop {
     margin-top: 10px;
 }
 
