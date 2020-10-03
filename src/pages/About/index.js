@@ -8,7 +8,7 @@ function About() {
                 <div className="row">
                     <div className="col-sm border-bottom">
                         <h1>
-                            About
+                            AboutT
                         </h1>
                     </div>
                 </div>
