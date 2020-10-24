@@ -1,5 +1,12 @@
 [
   {
+    "title": "COMMUNIFY",
+    "image": "./assets/pics/communify.PNG",
+    "description": "Communify was a final project that utilised the MERN full stack web development framework.  MongoDB, Express, React and Node were the foundation on which the application was built.  React-Materialize was used as the styling framework along with standard Materialize CSS.  The aims to create a platform where users create tasks that other users can complete in a volunteering type environment.  The app allows users to create and update their profiles and start earning status points that are used to level up the user.  The objective is to make it fun and allow volunteers to track their progress",
+    "repo": "https://github.com/EMoschos/communify",
+    "deployed": "https://communify-2020.herokuapp.com/"
+  },
+  {
     "title": "SCHOOLGLE",
     "image": "./assets/pics/schoolgle.PNG",
     "description": "SCHOOLGLE was created to help parents best decide where to send their children to school through an easy-to-use interface backed by data that matters. All the data has been provided by the Australian Education Department so parents are able to make the best-informed decision possible about their children's education. The App was created using Full-stack web development tools such as Node.js, MySQL, Express.js, Sequelize, Passport.js, bCrypt.js, Handlebars.js with integration of Google Maps API, Materialize CSS and Print.js",
