@@ -2,7 +2,7 @@
   {
     "title": "COMMUNIFY",
     "image": "./assets/pics/communify.PNG",
-    "description": "Communify was a final project that utilised the MERN full stack web development framework.  MongoDB, Express, React and Node were the foundation on which the application was built.  React-Materialize was used as the styling framework along with standard Materialize CSS.  The aims to create a platform where users create tasks that other users can complete in a volunteering type environment.  The app allows users to create and update their profiles and start earning status points that are used to level up the user.  The objective is to make it fun and allow volunteers to track their progress",
+    "description": "Communify was a final project in the UofA 24 week Coding Bootcamp that utilised the MERN full stack web development framework.  MongoDB, Express, React and Node were the foundation on which the application was built.  React-Materialize was used as the styling framework along with standard Materialize CSS.  The aims to create a platform where users create tasks that other users can complete in a volunteering type environment.  The app allows users to create and update their profiles and start earning status points that are used to level up the user.  The objective is to make it fun and allow volunteers to track their progress",
     "repo": "https://github.com/EMoschos/communify",
     "deployed": "https://communify-2020.herokuapp.com/"
   },
