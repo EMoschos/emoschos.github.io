@@ -54,3 +54,99 @@ small {
 .btn {
     margin: 5px;
 }
+
+.fontMont {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    line-height: 200%;
+}
+
+.fontSize {
+    font-size: 20px;
+  }
+ 
+  /* .fontMont {
+   font-family: 'Montserrat', sans-serif;
+ } */
+ 
+.fontBebas{
+   font-family: 'Bebas Neue', cursive;
+}
+ 
+.fontPTsans {
+   font-family: 'PT Sans', sans-serif;
+ }
+ 
+ .colorMagenta {
+   color: #cb6ce6;
+ }
+ 
+ .headProject {
+   color: #cb6ce6;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .headOps {
+   color: #38b6ff;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .headPerf {
+   color: #7ed957;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .headLead {
+   color: #737373;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 200px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }

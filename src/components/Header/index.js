@@ -13,10 +13,10 @@ function Header() {
                 <div className="navbar-nav ml-md-auto">
                     <ul className="navbar-nav flex-row">
                         <li className="nav-item">
-                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>About</Link>
+                            <Link to="/About" className={location.pathname === "/About" ? "nav-link active" : "nav-link"}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Portfolio" className={location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
+                            <Link to="/Portfolio" className={location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>Dev Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/Contact" className={location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>Contact</Link>

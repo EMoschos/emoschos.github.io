@@ -6,7 +6,7 @@ function Portfolio() {
     const [webApps, setWebApps] = useState([...projects]);
 
     return (
-        <main>
+        <main class="hero-image">
             <div className="container-sm">
                 <div className="row">
                     <div className="col-sm border-bottom">
@@ -21,7 +21,7 @@ function Portfolio() {
                             className="img-thumbnail" />
                     </div>
                     <div className="col-md-10">
-                        <p>
+                        <p className="fontMont">
                             Our Web Development Portfolio consists of applications that utilise the latest in web development technologies. We use
                             HTML, CSS and JavaScript as a base and then leveraging web dev technologies such as Node.js, PWAs, MongoDB and React.js to build dynamic and responsive websites. We endeavour to make each
                             application look clean, fresh and unique. Look through our range of deployed applications below.

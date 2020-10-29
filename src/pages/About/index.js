@@ -3,7 +3,7 @@ import React from "react";
 
 function About() {
     return (
-        <main>
+        <main class="hero-image">
             <div className="container-sm">
                 <div className="row">
                     <div className="col-sm border-bottom">
@@ -18,7 +18,7 @@ function About() {
                             alt="POP services Venn diagram icon with projects, operations and performance written under it"
                             className="img-thumbnail" />
                     </div>
-                    <div className="col-sm-9 font-weight-bold">
+                    <div className="col-sm-9 fontMont">
                         <p>
                             Eleftherios (Terry) Moschos is a full stack developer and project manager in the web development
                             space

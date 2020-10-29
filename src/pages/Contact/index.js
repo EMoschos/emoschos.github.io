@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
     return (
-        <main>
+        <main class="hero-image">
         <div className="container-sm">
           <div className="row">
             <div className="col-sm border-bottom">
@@ -11,7 +11,7 @@ function Contact() {
               </h1>
             </div>
           </div>
-          <div className="container marginTop">
+          <div className="container marginTop fontMont">
             <h3>For further enquiries feel free to contact us @</h3>
             <h2><i className="fas fa-user"></i> Eleftherios Moschos</h2>
             <h2><i className="fas fa-envelope"></i> tmoschos@bigpond.com</h2>
