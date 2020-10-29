@@ -19,9 +19,12 @@ function About() {
                             className="img-thumbnail" />
                     </div>
                     <div className="col-sm-9 fontMont">
+                    <p>
+                    POP services was born out of a want to help everyday business and organisations make lasting meaningful change and to enable the realisation of ideas.  POP services seeks to strengthen local business and the community they operate in.
+                        </p>
+                        
                         <p>
-                            Eleftherios (Terry) Moschos is a full stack developer and project manager in the web development
-                            space
+                            Eleftherios (Terry) Moschos is a full stack developer and project manager
                             leveraging studies with a
                             master’s in applied project management and full-stack web development both completed through the
                             University of Adelaide.
