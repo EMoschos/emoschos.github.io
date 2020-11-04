@@ -1,6 +1,6 @@
-/* body {
-    background-color: rgb(68, 114, 160);
-} */
+body {
+    background-color: #525252;
+}
 
 .hero-image {
     background-image: url("../pics/POPvennSVG.svg"); /* The image used */
@@ -14,12 +14,11 @@ nav {
     border-bottom: 2px;
     border-bottom-color: darkgrey;
     border-bottom-style: solid;
-    margin-bottom: 10px;
 }
 
 main {
     color: rgb(255, 255, 255);
-    padding-bottom: 100px; /* used to ensure content appears from behind sticky-footer */
+    padding-bottom: 100%; /* used to ensure content appears from behind sticky-footer */
 }
 
 /* Used container small to acheive the desired responsiveness  */
@@ -33,6 +32,25 @@ main {
 
 h2 {
     font-size: 24px;
+}
+
+h4 {
+  font-size: 40px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+h4:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.iconSize {
+font-size: 150px !important;
+color: white;
+transition: width 2s, height 2s, transform 2s;
+}
+
+.iconSize:hover {
+  transform: scale(1.5, 1.5);
 }
 
 /* CSS used to ensure the footer was acting appropriately across viewports and looked the same as the navbar */
@@ -54,3 +72,129 @@ small {
 .btn {
     margin: 5px;
 }
+
+.fontMont {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    line-height: 200%;
+}
+
+.fontSize {
+    font-size: 20px;
+  }
+ 
+  /* .fontMont {
+   font-family: 'Montserrat', sans-serif;
+ } */
+ 
+.fontBebas{
+   font-family: 'Bebas Neue', cursive;
+}
+ 
+.fontPTsans {
+   font-family: 'PT Sans', sans-serif;
+ }
+ 
+ .colorMagenta {
+   color: #cb6ce6;
+ }
+ 
+ .headProject {
+   color: #cb6ce6;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .headOps {
+   color: #38b6ff;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .headPerf {
+   color: #7ed957;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .headLead {
+   color: white;
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 3rem;
+ }
+ 
+ .pad {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: #525252;
+ }
+
+ .textSize30 {
+   font-size: 30px;
+ }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+
+ /* Header Parallax Element Style*/ 
+.paral {
+  min-height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  }
+
+  /* Paragraph for Parallax Section */ 
+.paral p {
+  font-size: 24px;
+  color:#f5f5f5;
+  text-align: center;
+  line-height: 60px;
+  }
+  
+  /* Heading for Parallax Section */ 
+  .paral h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 100px;
+  }
+
+  /* Image for Parallax Section */ 
+.paralsec {
+  background-image: url("../pics/POPvennSVG.svg");
+  background-color:  #525252;
+  }
+
+  /* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
