@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 function Header() {
     const location = useLocation();
     return (
-        <header>
             <nav className="navbar navbar-expand navbar-light bg-light flex-column flex-md-row">
                 <a className="navbar-brand" href="/">
                     <img src="/assets/pics/POPiconSVG2.svg" width="150" height="50" className="d-inline-block align-top"
@@ -24,7 +23,6 @@ function Header() {
                     </ul>
                 </div>
             </nav>
-        </header>
     );
 };
 
