@@ -7,7 +7,7 @@ function Contact() {
           <div className="row">
             <div className="col-sm border-bottom">
               <h1>
-                Contact
+                Contact Us
               </h1>
             </div>
           </div>
